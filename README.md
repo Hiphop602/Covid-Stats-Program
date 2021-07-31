@@ -1,8 +1,7 @@
 # Covid Stats bot
-A program made for the Covid warrior
 
 
-How to use this program
+> How to use this program
 
 1. Install the plyer module - ```pip install plyer```
 2. Download the file
