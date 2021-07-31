@@ -1,4 +1,4 @@
-#import the necessary module!
+#import the necessary module!s
 from plyer import notification
 import datetime
 import time
@@ -33,6 +33,7 @@ def Corona_Search():
     print(f"Tests per One Million are {testsPerOneMillion}")
     print("")
 
+#What 
 def Covid_Search():
     url = f"https://coronavirus-19-api.herokuapp.com/countries/{country}"
     stats = requests.get(url)
@@ -61,7 +62,7 @@ def Covid_Search():
     print(f"Total tests are {totalTests}")
     print(f"Tests per One Million are {testsPerOneMillion}")
     print("")
-
+#Credits and info 
 print("**********************************************************************")
 print("Covid Tracker")
 print("Program made by: Hiphop602, Lucifer Morningstar and Inky")
@@ -116,7 +117,7 @@ while len(Reminders) != 0:
         country = input("Please enter country name for covid stats: ")
         print(f"You have chosen {country}")
         print("")  
-        Corona_Search()
+        Corona_Search() #i could have used Covid_search but im not sure whether it would show the latest info *shrugs*
 
 
 
