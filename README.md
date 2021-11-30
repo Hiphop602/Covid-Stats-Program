@@ -1,4 +1,4 @@
-# Covid Stats bot
+# Covid Stats program
 
 
 > How to use this program
